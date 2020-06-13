@@ -1,60 +1,17 @@
-Batflat
-=======
+# OSS Final Project
+OSS 기말 과제의 일환으로 라즈베리파이를 사용하여 웹서비스를 만든다.
 
-Batflat was created as a lightweight alternative to heavy and outdated CMS'. Many people use complex solutions for simple pages, unnecessarily. Building this content management system, we focused on simplicity - even novice webmaster adapt his template and writes his own module. To achieve this, we implemented a simple template system and trivial application architecture.
+## 개발 방법
+라즈베리파이를 기반으로 open software인 Batflat을 활용하였다.
 
-Batflat does not require MySQL database, because all the data are collected in a single file. This provides perfect portability when changing your hosting provider. Just copy all the files from one account to another. That's all. There's nothing to configure or to change. However, if you SQLite does not meet your requirements, you can quickly change the database type thanks to PDO.
+## 목적
+배달비를 줄여 한동대학교 학부생의 지갑을 뚱뚱하게 지켜주기 위해 개발된 웹서비스이다.
 
-What's more, Batflat does not have installation wizard, because there is no such need. Right after uploading a package to an FTP server, Batflat is ready for action! Therefore, the installation process takes as much time as it takes to transfer files ;-)
+## 사용 방법
+라즈베리파이가 가동되고 있을 때 http://raspberrypi.local/ 로 접속하여 같이 배달시킬 학우를 구한다.
+서비스는 한동대학교 주위 음식점을 지도로 리스트업해 준다.
+음식점의 각 배달료 또한 명시한다.
 
-Each page can have it's own individual name and URL, that makes Batflat SEO friendly. Your site may be available in multiple languages. Currently Batflat supports translation to Polish, English, French, Turkish, Swedish, Russian, Italian, Spanish, Dutch and Indonesian.
 
-Control panel and the default template is fully responsive, which makes it accessible from any mobile device, even on the phone thanks to used CSS framework - Bootstrap. Each of our module is adapted to it.
 
-## Project page
-
-https://batflat.org
-
-## Supported languages
-* English
-* Polish
-* French
-* Turkish
-* Swedish
-* Russian
-* Italian
-* Spanish
-* Dutch
-* Indonesian
-
-## Modules
-* [SyntaxHighlighter](https://github.com/piotr-placzek/BatFlat-SyntaxHighlighter): Simple module based at Prism.js.
-* [FilesToDownload](https://github.com/piotr-placzek/BatFlat-FilesToDownload): Allows you to create a section of files to download on the page or post.
-* [EmbededVideoPlayer](https://github.com/piotr-placzek/BatFlat-EmbededVideoPlayer): Allows you to upload the video and its playback in the HTML5 player.
-* This is place for link to your module on GitHub ;-)
-
-## Themes
-* [Blue](https://github.com/michu2k/Blue): Simple and clean theme.
-* [Hello](https://github.com/michu2k/Hello): Light and clean theme based on flexbox grid.
-* [Frontiers](https://github.com/iskono/batflat-themes/tree/master/frontiers)
-* [matbatflat](https://github.com/mwasil/matbatflat): Theme based on Materialize CSS with gulp/SASS support
-* This is place for link to your theme on GitHub ;-)
-
-## Tutorials
-* [Setup Batflat on Ubuntu with Nginx](https://websiteforstudents.com/setup-batflat-on-ubuntu-18-04-16-04-18-10-with-nginx-mariadb-and-php-7-2-fpm/)
-
-## Recruitment
-We are looking for human resources, especially translators who will help us reach other corners of the world.
-[Contact us if you want to help!](https://batflat.org/contact)
-
-## Credits
-
-* **[Eztharia](https://github.com/Eztharia)** - French translation of website and CMS
-* **[Ladeyshchikov Valery](mailto:hizimart@gmail.com)** - Russian translation of CMS
-* **Artem Sharovatov** - Russian translation of website
-* **[Birkan Ergüç](https://github.com/pppedant)** - Turkish translation of CMS
-* **[Michael Thell](mailto:michael.silverunit@gmail.com)** - Swedish translation of CMS
-* **[Giuseppe Marino](mailto:info@gpmdev.it)** - Italian translation of CMS
-* **[Javier Igal](mailto:javier@igal.es)** - Spanish translation of website and CMS
-* **[RJ Adriaansen](https://github.com/rjadr)** - Dutch translation of CMS
-* **[Komputronika](https://github.com/komputronika)** - Indonesian translation of CMS
+[Click here to watch a presentation!](https://drive.google.com/drive/folders/1wgmvAczG-4TH2vi_l1nMnSKeUbyTkJ_u?usp=sharing)
